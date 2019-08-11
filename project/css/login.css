@@ -1,0 +1,128 @@
+body{
+    overflow: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+.header_top .logo{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+.logotext{
+    font-size: 26px;
+    color: #666;
+    line-height: 50px;
+    padding-left: 230px;
+    padding-top: 30px;
+}
+.login{
+    background: #d41c4f;
+    width: 100%;
+    /* overflow: auto; */
+}
+.login .mian_1{
+    background: url(../img/loginBanner.jpg) no-repeat;
+    /* overflow: hidden; */
+}
+.mian_1{
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+}
+.mylogin{
+    background: #fff;
+    /* overflow: hidden; */
+    width: 400px;
+    height: 370px;
+    margin: 15px 0;
+    float: right;
+    display: inline-block;
+    margin-right: 100px;
+}
+.mylogin h3{
+    margin: 30px 20px 10px;
+    font-size: 16px;
+    line-height: 40px;
+    border-bottom: 1px solid #eee;
+}
+.mylogin h3 a{
+    font-size:12px;
+    color: #f64a4a;
+    display: inline-block;
+    float: right;
+    font-weight: 500;
+    outline: none;
+    text-decoration: none;
+}
+.form-group{
+    margin: 0 20px 15px;
+    /* overflow: hidden; */
+}
+.form-group #name{
+    width: 310px;
+    padding-left: 48px;
+    display: inline-block;
+    border: 1px solid #eee;
+    line-height: 36px;
+    height: 36px;
+    color: #999;
+}
+.form-group label{
+    position: absolute;
+    width:36px;
+    height: 36px;
+    border: 1px solid #eee;
+    background-image:url(../img/loginIcon.png);
+    background-repeat: no-repeat;
+}
+.icon1{
+    background-position: 0 0;
+}
+.icon2{
+    background-position: -48px 0;
+}
+.form-group #upwd {
+    width: 310px;
+    padding-left: 48px;
+    display: inline-block;
+    border: 1px solid #eee;
+    line-height: 36px;
+    height: 36px;
+    color: #999;
+}
+.Gologo {
+    text-align: right;
+    font-size: 12px;
+    color: #666;
+    line-height: 40px;
+}
+.Gologo a{
+    text-decoration: none;
+    color: #999;
+    position: relative;
+    right: 22px;
+}
+.logo_btn{
+    cursor: pointer;
+    width: 360px;
+    text-align: center;
+    background: #ec4472;
+    color: #fff;
+    line-height: 40px;
+    height: 40px;
+    border: none;
+    display: block;
+    font-size: 16px;
+    margin: 20px;
+}

@@ -1,0 +1,194 @@
+*{
+    margin:0;
+    padding: 0;
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    height: 120px;
+    position: relative;
+}
+.header .logo{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 35px;
+}
+a>img{
+    text-decoration: none;
+    border: none
+}
+.logTxt{
+    font-size: 26px;
+    color: #666;
+    line-height: 50px;
+    padding-left:230px;
+    padding-top: 30px; 
+}
+.forgotp{
+    border-top: 2px solid #ec4472;
+    width: 100%;
+    padding: 10px 0;
+}
+.forgotp .main{
+    width: 1040px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+    overflow: hidden;
+}
+.register{
+    overflow: hidden;
+    width: 590px;
+    margin: 30px 0;
+    float: right;
+    display: inline;
+}
+.register p{
+    padding: 10px 0;
+    overflow: hidden;
+}
+.register p label{
+    width: 100px;
+    text-align: right;
+    display: inline-block;
+    color: #666;
+    font-size: 14px;
+}
+p input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #eee;
+    padding-left: 15px;
+    color: #999;
+    font-size: 14px;
+    display: inline-block;
+    outline: none;
+}
+.radiusnum{
+    width: 150px;
+}
+.pic_code{
+    vertical-align: top;
+    cursor: pointer;
+}
+.sendbtn{
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    line-height: 30px;
+    display: inline-block;
+    width: 95px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background: #d41c4f;
+    border-radius: 2px;
+    margin-left: 5px;
+    padding: 0px;
+}
+.gologin{
+    text-align: left;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+}
+.checkbox{
+    margin-left: 105px;
+    margin-top: 6px;
+    color: #999;
+    font-size: 14px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: left;
+}
+.el_checkbox{
+    color: #1f2d3d;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    white-space:nowrap; 
+}
+.el-checkbox__input{
+    outline: 0;
+    line-height: 1;
+    vertical-align: middle;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+}
+el-checkbox__inner::after{
+    transform: rotate(45deg) scaleY(1);
+    box-sizing: content-box;
+    content: "";
+    border: 2px solid #fff;
+    border-left: 0;
+    border-right: 0;
+    height: 8px;
+    left: 5px;
+    position: absolute;
+    top:1px;
+    transform-origin:center;
+}
+.el-checkbox_original{
+    width: 18px;
+    height: 18px;
+    background-color: #20a0ff;
+    border-color: #0190fe;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #bfcbd9;
+    border-radius: 4px;
+    box-sizing: border-box;
+    z-index: 1;
+    transition: border-color .25s cubic-bezier(.71,-.46,.29,1.46),background-color .25s cubic-bezier(.71,-.46,.29,1.46);
+}
+.checkbox a{
+    color: #169bd5;
+    font-size: 12px;
+}
+ .markbtn{
+    height: 35px;
+    width: 250px;
+    border: 1px solid #eee;
+    display: inherit;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+    margin-left: 105px;
+    margin-top: 15px;
+    background: #d41c4f;
+    border-radius: 4px;
+}
+.gologin{
+    text-align: left;
+    font-size: 12px;
+    color: #666;
+    line-height: 40px;
+}
+.ckeckbox{
+    margin-left: 105px;
+    margin-top: 6px;
+    color: #999;
+    font-size: 12px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: left;
+}
+.gologin a{
+    color: #169bd5;
+}
+.gg{
+    width: 450px;
+    margin-top: 30px;
+    float: left;
+}
+.gg img{
+    width: 100%;
+}
