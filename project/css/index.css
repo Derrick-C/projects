@@ -298,7 +298,7 @@
 .module{
     width: 390px;
     height: 310px;
-    margin-left:15px; 
+    margin-left:10px; 
     background: #fff;
     display: inline-block;
 }
@@ -331,7 +331,6 @@
 .content{
     width: 369px;
     height: 362px;
-    margin: 10px auto 0;
     overflow: hidden;
 }
 .module .content ul{
@@ -345,7 +344,7 @@
 }
 .module .content ul li{
     position: relative;
-    float: left;
+    width: 184px;
     height: 120px;
     border-width: 0 1px 1px 0;
     border-style: solid;
@@ -356,6 +355,7 @@
     position:absolute;
     top:260px;
     left:195px; 
+    border-right: 0;
 }
 .module .content ul li a{
     float: left;
@@ -422,4 +422,344 @@
     height: 90px;
     bottom: 3px;
     right: 3px;
+}
+.col2{
+    background: #6d55bd;
+}
+.module .content ul li.list-2{
+    border-bottom: 0;
+    position:absolute;
+    top:260px;
+    left:603px; 
+    border-right: 0;
+}
+.col3{
+    background: #fd9601;
+}
+.module .content ul li.list-3{
+    border-bottom: 0;
+    position:absolute;
+    top:260px;
+    left: 1002px;
+    border-right: 0;
+}
+.zone-container{
+    overflow: hidden;
+    margin-top: -83px;
+}
+.floor-1.floorborder-1{
+    border-color: #e87272;
+}
+.floor-1:nth-child(odd){
+    margin-left: 0;
+}
+.floor-1{
+    float: left;
+    width: 592px;
+    height: 405px;
+    background: #fff;
+    border-top: 2px solid #fff;
+    border-top-color: #c96b2c;
+    -webkit-box-shadow: 0 0 8px #eee;
+    box-shadow: 0 0 8px #eee;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.floor-1 .title{
+    background: #fbf3ee;
+    width: 100%;
+    height: 45px;
+    border-color: #c96b2c;
+}
+.floor-1.floorborder-1 .title .title-name{
+    background: #e87272;
+}
+.floor-1 .title .title-name{
+    float: left;
+    background: #c96b2c;
+    width: 190px;
+    height: 45px;
+}
+.floor-1 .title .title-name p.name{
+    margin-left: 15px;
+    color: #fff;
+    font: 700 18px/40px Microsoft Yahei,tahoma,arial,Hiragino Sans GB;
+}
+.keyword{
+    float: right;
+    margin: 14px 18px 0 0;
+}
+.keyword a{
+    margin-left: 20px;
+    font: 14px/20px Microsoft Yahei,tahoma,arial,Hiragino Sans GB;
+    color: #666;
+    text-decoration: none;
+    margin: 0;
+}
+.keyword a:hover{
+    color: #666;
+}
+.claerfix:after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.floor-1 .content{
+    width: 100%;
+    height: 360px;
+}
+.floor-1 .content .left-img {
+    float: left;
+    position: relative;
+    width: 190px;
+    height: 360px;
+    cursor: pointer;
+}
+.floor-1 .left-img img{
+    display: block;
+    width: 190px;
+    height: 360px;
+}
+.floor-1 .img-list, .floor-1 .img-list li{ 
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.clearfix{
+    zoom: 1;
+}
+.floor-1 .img-list li{
+    width: 199px;
+    height: 179px;
+    border-width: 0 0 1px 1px;
+    border-color: #eee;
+    border-style: solid;
+}
+.floor-1 .img-list{
+    width: 400px;
+    height: 360px;
+    display: flex; 
+    flex-wrap: wrap; 
+}
+.floor-1 .img-list li a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height:100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.floor-1 .img-list li p.img-name{
+    width: 180px;
+    height: 24px;
+    overflow: hidden;
+    text-align: center;
+    margin: 14px auto 0;
+    font: 16px/24px Microsoft Yahei,tahoma,arial,Hiragino Sans GB;
+    color: #333;
+}
+.floor-1 .img-list li p.img-price{
+    width: 180px;
+    height: 20px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    font: 12px/20px Microsoft Yahei,tahoma,arial,Hiragino Sans GB;
+    color: red;
+    display: inline-block;
+    font-size: 16px;
+}
+.floor-1 .img-list li p.img-price em{
+    padding: 0 8px;
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+.floor-1 .img-list li img{
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s,-webkit-transform .5s;
+}
+.hotgoods{
+    margin: 10px 0;
+    overflow: hidden;  
+}
+.tit{
+    height: 50px;
+    color:#666;
+    font-size: 18px;
+    line-height: 50px;
+    font-weight: 800;
+}
+.hotgoods>ul{
+    overflow: hidden;
+    background: #fff;
+}
+.hotgoods>ul>li{
+    width: 228px;
+    height: 275px;
+    display: inline-block;
+    margin: 10px 3px 10px 8px;
+    text-align: center;
+}
+.hotgoods>ul>li>a{
+    outline: none;
+    text-decoration: none;
+}
+.hotgoods ul li img{
+    width: 80%;
+    height: 200px;
+    transition: all 0.6s ease-in-out;
+}
+.hotgoods ul li img:hover{
+    transform: scale(1.1);
+}
+.hotgoods ul li p{
+    padding: 5px 10px;
+    line-height: 20px;
+    font-size: 14px;
+    word-wrap: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.hotgoods ul li p span{
+    color: #666;
+    font-size: 16px;
+}
+.hotgoods ul li p b{
+    color: red;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 16px;
+}
+.hotgoods ul li p s{
+    color: #999;
+}
+.product-carousel{
+    width: 1140px;
+    height: 322px;
+    background-color: #fff;
+    padding: 30px 30px 20px 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.product-carousel .title{
+    height: 32px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d6d6d6;
+}
+.product-carousel .title h2{
+    float: left;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-top: 4px;
+    background: #fff;
+    line-height: 24px;
+    color: #666;
+    font-size: 18px;
+    font-weight: 800;
+}
+.product-carousel .bd{
+    width: 10000px;
+    height: 259px;
+    position: relative;
+}
+
+
+.product-carousel .bd .wbox{
+    width: 228px;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+.product-carousel .bd .box{
+    width: 200px;
+    margin: 0 22px 0 12px;
+    overflow: hidden;
+}
+.product-carousel .bd .box a{
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    height: 259px;
+}
+.product-carousel .bd .box img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+}
+.product-carousel .bd .box a b{
+    display: block;
+    padding: 5px 0;
+    line-height: 25px;
+    height: 25px;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+.product-carousel .bd .box a font{
+    display: block;
+    line-height: 24px;
+    color: #dc0f50;
+    font-size: 20px;
+    position: absolute;
+    top: 236px;
+    left: 0;
+}
+.bd-1,.bd-2,.bd-3{
+    width: 1200px;
+    position: absolute;
+}
+.bd-1{
+    top: 0;
+    left: 0;
+}
+.bd-2{
+    top: 0;
+    left: 1200px;
+}
+.bd-3{
+    top: 0;
+    left: 2400px;
+}
+.b_box{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.left,.right{
+    width: 30px;
+    height:60px;
+    background-color:rgba(100,100,100,0.5);  
+    position: absolute;  
+    line-height: 60px;
+    text-align: center;
+    font-size:30px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    z-index:99;
+}
+.left.l{
+    left: 0px;
+    top: 80px;
+}
+.right.r{
+    right: 0px;
+    top: 80px;
 }

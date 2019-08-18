@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app-main{
+  width: 1437px;
+}
+#main{
+  width: 1437px;
+}
+.contaner.bg{
+  background: #fff;
+}
+.contaner{
+  width: 100%;
+  float: left;
+  position: relative;
+  background: #f3f1f1;
+}
+.banner{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-color: #e8f8c7;
+}
+.hd{
+  position: relative;
+  overflow: hidden;
+}
+.banner .hd .swip-werp{
+  background-image: url(/img/new-product.1feca27.jpeg);
+  height: 350px;
+  background-size: contain;
+  margin-top: 1px;
+}
+.main{
+  width: 1200px;
+  margin: 0 auto;
+  clear: both;
+  position: relative;
+}
+.listpro{
+  width: 1200px;
+}
+.pagelink{
+  height: 35px;
+  line-height: 35px;
+  color: #999;
+  font-size: 14px;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+.pagelink a{
+  color: #999;
+  margin-right: 5px;
+  text-decoration: underline;
+}
+.pagelink span{
+  padding-left: 5px;
+}
+.hotgoods{
+  margin-bottom: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.hotgoods .tit{
+  height: 50px;
+  color: #666;
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: 800;
+}
+.hotgoods>ul{
+  width: 1200px;
+  overflow: hidden;
+  background: #fff;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hotgoods>ul>li{
+  width: 19%;
+  height: 275px;
+  display: inline-block;
+  margin: 10px 3px 10px 8px;
+  text-align: center;
+  position: relative;
+}
+.hotgoods ul li img{
+  width: 80%;
+  height: 200px;
+  transition: all 0.6s ease-in-out;
+  transform: scale(.9);
+}
+.hotgoods ul li img:hover{
+  transform: scale(1);
+}
+.hotgoods ul li p{
+  padding: 5px 10px;
+  line-height: 20px;
+  font-size: 14px;
+  word-wrap: normal;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hotgoods ul li p span{
+  color: #666;
+  font-size: 16px;
+}
+.hotgoods ul li p b{
+  color: red;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
