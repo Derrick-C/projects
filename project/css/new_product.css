@@ -3,10 +3,11 @@
   padding: 0;
 }
 .app-main{
-  width: 1437px;
+  width: 100%;
+  margin: 0 auto;
 }
 #main{
-  width: 1437px;
+  width: 100%;
 }
 .contaner.bg{
   background: #fff;

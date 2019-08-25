@@ -7,7 +7,7 @@
     background: #e3e4e5;
     border-bottom: 1px solid #ddd;
 }
-.top{
+.header-top .top{
     width:1200px;
     height: 45px;
     line-height: 45px;
@@ -44,7 +44,7 @@ ul{
 li{
     width: auto;
 }
-b{
+.topfoot b{
     color: #d41c4f;
     padding: 0 5px;
 }
@@ -67,7 +67,7 @@ b{
     float: left;
 }
 .searchbox{
-    width: 480px;
+    width: 550px;
     height: 30px;
     border: 1px solid #c61010;
     color: #999;
@@ -82,7 +82,7 @@ b{
     padding-left: 10px;
     color: #999;
 }
-.searchbox  a{
+.searchbox .searchBtn{
     background: #c61010;
     float: right;
     display: block;
@@ -92,6 +92,10 @@ b{
     height: 30px;
     line-height: 30px;
     font-size: 14px;
+}
+.searchbox .searchBtn.seller{
+    background-color: #bed600;
+    color: #fff;
 }
 .hotsearch span{
     display: inline-block;
@@ -115,7 +119,7 @@ b{
     position: relative;
     float: left;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 40px;
     margin-top: 40px;
 }
 .buycar{
@@ -145,7 +149,7 @@ b{
     font-size: 12px;
     text-align: center;
     border-radius: 22px 22px 22px 22px;
-    margin: -2px 1px;
+    margin: 0 5px;
     background: #c81623;
     color: #fff;
 }

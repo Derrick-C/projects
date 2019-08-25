@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header-top{
+  width: 100%;
+  background: #e3e4e5;
+  border-bottom: 1px solid #ddd;
+}
+.header-top .top{
+  width:1200px;
+  height: 45px;
+  line-height: 45px;
+  color: #999;
+  font-size: 12px;
+  margin: 0 auto;
+}
+.toptext{
+  float: left;
+}
+.header-top a{
+  padding: 0 5px;
+  color: #999;
+  font-size: 14px;
+}
+a{
+  text-decoration: none;
+  outline: none;
+}
+a:hover{
+  color: red;
+}
+.header-top .a1{
+  color: #c61010;
+}
+.topfoot{
+  width: auto;
+  float: right;
+}
+.topul{
+  list-style: none;
+  display: flex;
+}
+.topul li{
+  width: auto;
+}
+.topfoot b{
+  color: #d41c4f;
+  padding: 0 5px;
+}
+.cen_header{
+  width: 1200px;
+  margin: 0 auto;
+  height: 120px;
+  position: relative;
+}
+.logo{
+  /* overflow: hidden; */
+  position: absolute;
+  left: 0;
+  top: 35px;
+}
+.search{
+  margin-left: 320px;
+  margin-top: 40px;
+  width: 540px;
+  float: left;
+}
+.searchbox{
+  width: 550px;
+  height: 30px;
+  border: 1px solid #c61010;
+  color: #999;
+  font-size: 12px;
+  display: flex;
+}
+.searchbox input{
+  border: none;
+  width: 480px;
+  height: 30px;
+  line-height: 30px;
+  padding-left: 10px;
+  color: #999;
+}
+.searchbox .searchBtn{
+  background: #c61010;
+  float: right;
+  display: block;
+  text-align: center;
+  color: #fff;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.searchbox .searchBtn.seller{
+  background-color: #bed600;
+  color: #fff;
+}
+.hotsearch span{
+  display: inline-block;
+  color: #999;
+  font-size: 12px;
+  line-height: 30px;
+  padding: 0 2px;
+}
+.hotsearch a{
+  display: inline-block;
+  color: #999;
+  font-size: 12px;
+  line-height: 30px;
+  padding: 0 2px;
+}
+.hotsearch a:hover{
+  color: red;
+}
+.buysearch{
+  width: 120px;
+  position: relative;
+  float: left;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+.buycar{
+  width: 78px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #eee;
+  background: #fff url(../img/buyCar.png) no-repeat 6px 5px;
+  color: #999;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 40px;
+  display: block;
+  position: relative;
+}
+.buycar:hover{
+  color:#999;
+}
+.buycar b{
+  position: absolute;
+  right: 2px;
+  top:7px;
+  min-width: 20px;
+  min-height: 20px;
+  line-height: 20px;
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 22px 22px 22px 22px;
+  margin: 0 5px;
+  background: #c81623;
+  color: #fff;
+}
+.carbuys{
+  border: 1px solid #eee;
+  width: 300px;
+  padding: 10px;
+  padding-bottom: 0;
+  height: auto;
+  position: absolute;
+  right: 0;
+  background: #fff;
+  top: 34px;
+  z-index: 998;
+  display: none;
+}
+.buysearch:hover .carbuys{
+  display: block;
+}
+.carbuys h3{
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.buybottom{  
+  width: 100%;
+  background: #eee;
+  font-size: 14px;
+  padding: 10px;
+  float: left;
+  margin-left: -10px;
+  display: inline-block;
+}
+.buybottom p{
+  vertical-align: middle;
+  line-height: 30px;
+}
+.buybottom span{
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.buybottom b{
+  color: #333;
+}
+.buybottom a{
+  width: 60px;
+  text-align: center;
+  line-height: 30px;
+  background: #c61010;
+  color: #fff;
+  float:right;
+  padding: 0 10px;
+}
+.weiimg{
+  float: right;
+  width: 150px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+.weiimg img{
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+}
+.weiimg>p{
+  font-size: 12px;
+  color: #666;
+}
+.nav{
+  clear: both;
+  height: 35px;
+  line-height: 35px;
+  width: 100%;
+  background: #d41c4f;
+}
+.nav ul{
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav>ul>li{
+  display: inline-block;
+  float: left;
+  width: auto;
+  padding:0 20px; 
+}
+.nav>ul>li>a{
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+  text-decoration: none;
+  padding: 0;
+}

@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app-main{
+    width: 100%;
+    margin: 0 auto;
+}
+#main{
+    width: 100%;
+}
+.contaner.bg{
+    background: #fff;
+}
+.contaner{
+    width: 100%;
+    float: left;
+    position: relative;
+    background: #f3f1f1;
+}
+.main{
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+}
+.listpro{
+    width: 100%;
+}
+.share-url{
+    background: #fff;
+    position: relative;
+}
+.share-url a{
+    display: block;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.share-url img{
+    width: 1359px;
+    display: block;
+    vertical-align: top;
+    clear: both;
+    margin: 0 auto;
+    border: none;
+}
