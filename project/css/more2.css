@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.app-main{
+    width: 100%;
+    margin: 0 auto;
+}
+#main{
+    width: 100%;
+}
+.search-container{
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+}
+.pagelink{
+    height: 35px;
+    line-height: 35px;
+    color: #999;
+    font-size: 14px;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+.pagelink a{
+    color: #999;
+    margin-right: 5px;
+    text-decoration: underline;
+    outline: none;
+}
+.pagelink a:hover{
+    color: #999;
+}
+.pagelink span{
+    padding-left: 5px;
+}
+.listlinks{
+    padding: 30px 10px 0;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 28px;
+}
+.listlinks dl{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 97%;
+}
+.listlinks dt{
+    width: 95px;
+    text-align: right;
+    float: left;
+    color: #a6acbc;
+    font-size: 14px;
+}
+.listlinks dd{
+    width: 1045px;
+    float: left;
+}
+.listlinks dd a{
+    display: inline-block;
+    padding: 0 12px;
+    color: #443e3d;
+    border: 1px solid #fff;
+}
+.listlinks dd a.active{
+    color: #1478f0;
+    border: 1px solid #1478f0;
+}
+.listlinks dd a:hover{
+    color: #1478f0;
+    border: 1px solid #1478f0;
+}
+.listhouse{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.listhouse .listhouseimg{
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+.listhouse .listhouseimg p{
+    color: #7a808f;
+    font-size: 14px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding: 3px 40px;
+}
+.listhouse .listhouseimg p em{
+    transition: all .3s;
+    font-style: normal;
+    color: #db280b;
+}
+.listhouse .listhouseimg ul{
+    overflow: hidden;
+    list-style: none;
+}
+.listhouse .listhouseimg ul li{
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-top: 1px solid #fff;
+    padding: 40px 45px;
+    overflow: hidden;
+}
+.listhouse .listhouseimg ul li:hover{
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.listhouse .listhouseimg ul li a{
+    outline: none;
+    text-decoration: none;
+}
+.listhouse .listhouseimg li img{
+    width: 320px;
+    height: 237px;
+    float: left;
+}
+.listhouse .listhousetxt{
+    float: right;
+    width: 750px;
+}
+.listhouse .listhousetxt .listhousetxtl{
+    width: 600px;
+    float: left;
+}
+.listhouse .listhousetxt .listhousetxtl h3{
+    cursor: pointer;
+    font-size: 20px;
+    color: #43464f;
+    font-weight: 500;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.listhouse .listhousetxt .listhousetxtl h3>a{
+    color: #43464f;
+    outline: none;
+    text-decoration: none;
+}
+.listhouse .listhousetxt .listhousetxtl p{
+    padding: 0;
+    font-size: 16px;
+    margin: 0;
+    line-height: 35px;
+}
+.listhouse .listhousetxt .listhousetxtl .kindhouse span{
+    margin-right: 13px;
+    font-size: 14px;
+    color: #43464f;
+}
+.listhouse .listhousetxt .listhousetxtl .kindhouse span::before{
+    display: inline-block;
+    content: "";
+    background: url(../img/icon.effedbf.png) no-repeat;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.listhouse .listhousetxt .listhousetxtl .kindhouse span a{
+    color: #1478f0;
+}
+.listhouse .listhousetxt .listhousetxtr{
+    float: right;
+    text-align: right;
+}
+.listhouse .listhousetxt .listhousetxtr h3{
+    cursor: pointer;
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 50px;
+    margin-top: 20px;
+    color: #1478f0;
+    border: 1px solid #1478f0;
+    background-color: transparent;
+}
+.listhouse .listhousetxt .listhousetxtr h3:hover{
+    background-color: #1478f0;
+    color: #fff;
+}
+.listhouse .listhousetxt .listhousetxtr h3.cstatus{
+    background-color: transparent;
+    color: #f47e43;
+    border-color: #f47e43;
+    text-align: center;
+    border: none;
+}
+.zpageenav{
+    text-align: center;
+    font-family: arial;
+    color: #48576a;
+}
+.zpageenav ul{
+    display: inline-block;
+    margin: 20px;
+    padding: 0;
+
+}
+.zpageenav ul li.disabled{
+    cursor: not-allowed;
+    color: #e4e4e4;
+}
+.zpageenav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0 4px;
+    border: 1px solid #d1dbe5;
+    border-right: 0;
+    background: #fff;
+    font-size: 13px;
+    min-width: 28px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.disabled{
+    pointer-events: none;
+}
+.zpageenav ul li a{
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.app-main{
+  width: 100%;
+  margin: 0 auto;
+}
+#main{
+  width: 100%;
+}
+.news-subscribe-container{
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  min-height: 800px;
+}
+.news-subscribe-container .subscribe-view{
+  margin-top: 30px;
+}
+.news-subscribe-container .subscribe-view ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item{
+  width: 25%;
+  display: inline-block;
+  margin-bottom: 13px;
+  padding: 0 7px;
+  box-sizing: border-box;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag{
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  transition: border-color .3s;
+  text-align: center;
+  padding: 20px 0;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag .info-box{
+  width: 100%;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag .info-box a{
+  outline: none;
+  text-decoration: none;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag .info-box .title{
+  font-size: 20px;
+  line-height: 20px;
+  color: #333;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag .info-box .mete-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #909090;
+  margin-top: 10px;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag .info-box .mete-info .mete{
+  line-height: 20px;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag .info-box .mete-info .mete.article{
+  margin-left: 8px;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag .action-box{
+  margin-top: 10px;
+}
+.news-subscribe-container .subscribe-view .subscribe-view-tags .tags-item .tags-item-tag .action-box .el-button{
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #c4c4c4;
+  color: #1f2d3d;
+  margin: 0;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}

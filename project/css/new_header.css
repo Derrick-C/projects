@@ -222,10 +222,11 @@ a:hover{
 }
 .nav{
   clear: both;
-  height: 35px;
-  line-height: 35px;
+  line-height: 49px;
   width: 100%;
   background: #d41c4f;
+  min-height: 50px;
+  overflow: hidden;
 }
 .nav ul{
   width: 1200px;
